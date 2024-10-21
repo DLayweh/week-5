@@ -1,0 +1,15 @@
+const data = [
+    {name:"Dandy", Kind: "Dog"},
+    {name:"Koshi", Kind: "Dog"},
+    {name:"Bianca", Kind: "Cat"},
+    {name:"Finley", Kind: "Cat"},
+];
+function petToString(pet){
+    return`
+    PET NAME: ${pet.name}
+    KIND: Good ${pet.Kind}
+    `;
+}
+
+//console.log(petToString(data[0])); //first
+//console.log(petToString(data[data.legth -1])); //last one
