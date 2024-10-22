@@ -1,4 +1,4 @@
-let emp1 = {
+/*let emp1 = {
     employeeId: "1",
     name: "Ezra",
     jobTitle: "Theater Teacher",
@@ -37,10 +37,10 @@ let emp4 = {
 };
 printEmployeeAndPay(emp3);
 printEmployeeAndPay(emp4);
+*/
 
 
-
-function createPayStub(id, name, payRate, hoursWorked) {
+/*function createPayStub(id, name, payRate, hoursWorked) {
     let grossPay = 0;
     if (hoursWorked <= 40) {
         grossPay = payRate * hoursWorked;
@@ -65,3 +65,16 @@ let emp2PayStub =
 console.log(emp2PayStub.name + " earned $" +
     emp2PayStub.grossPay.toFixed(2));
 
+*/
+
+let myInfo = {
+    name: "Diamond ",
+    address: "121 Main Street",
+    city: "powdwesperings",
+    State: "Georgia",
+    zip: "20123",
+};
+console.log (myInfo.name)
+console.log (myInfo.address)
+console.log (myInfo.State)
+console.log (myInfo.zip)

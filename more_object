@@ -1,15 +1,52 @@
-const data = [
-    {name:"Dandy", Kind: "Dog"},
-    {name:"Koshi", Kind: "Dog"},
+/*
+const data = [ //creates an arrey/ aka order list
+    {name:"Dandy", Kind: "Dog"},// {} create an object AKA value pairs
+    {name:"Koshi", Kind: "Dog"}, //$() insert this
     {name:"Bianca", Kind: "Cat"},
     {name:"Finley", Kind: "Cat"},
 ];
 function petToString(pet){
     return`
-    PET NAME: ${pet.name}
+    PET NAME: ${pet.name} 
     KIND: Good ${pet.Kind}
     `;
 }
 
+function printPet(pet) {
+    console.log(petToString(pet) ),
+}
 //console.log(petToString(data[0])); //first
 //console.log(petToString(data[data.legth -1])); //last one
+*/
+
+
+let x = 0; //unlike for() we intialze before the wile ()
+const LIMIT =5; // ALL caps is clue ots true constant
+console.log("BEGIN", x);
+while (i < LIMIT){ //should we continue? 5 < 5?
+    console.log("x:", x) //print it out
+    x++; //increment = bump up by one
+}//go to top and revaluate continuing to enter the loop
+console.log("END", x);
+
+//classic
+for(j = 0; j < 5; j++){
+    console.log("j:", j);
+}
+
+//num, 1
+
+let num = 1;
+let i = 0;
+while (i < 17) {
+    console.log("i and num:", i, num);
+    i++;4t
+    num = num * 2;
+}
+console.log("COUNT DOWN...")
+let count = 10;
+while(count > 0){
+    console.log(count);
+    count = count - 1;
+}
+console.log("BLAST OFF111")
